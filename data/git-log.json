@@ -1,0 +1,5 @@
+[
+  { "hash": "a1b2c3", "message": "Initial commit" },
+  { "hash": "d4e5f6", "message": "Added Jenkinsfile" },
+  { "hash": "g7h8i9", "message": "Updated dashboard layout" }
+]

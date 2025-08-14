@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Update Git Log') {
+            steps {
+                sh 'git log --oneline -n 5 > data/git-log.json'
+            }
+        }
+        stage('Update Jenkins Status') {
+            steps {
+                sh 'echo "{\\"lastBuild\\": \\"Build #42\\", \\"status\\": \\"SUCCESS\\"}" > data/jenkins-status.json'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh './deploy.sh'
+            }
+        }
+    }
+}

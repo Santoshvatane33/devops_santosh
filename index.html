@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevOps Learning Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🚀 DevOps Learning Dashboard</h1>
+
+  <section id="git-updates">
+    <h2>🧾 Latest Git Commits</h2>
+    <ul id="git-log"></ul>
+  </section>
+
+  <section id="jenkins-status">
+    <h2>🔧 Jenkins Build Status</h2>
+    <div id="jenkins-info"></div>
+  </section>
+
+  <section id="study-material">
+    <h2>📚 Study Material</h2>
+    <ul id="material-list"></ul>
+  </section>
+
+  <section id="commands">
+    <h2>💻 Practical Commands</h2>
+    <pre>
+# Git
+git clone <repo>
+git log --oneline
+
+# Jenkins
+jenkins-cli build <job>
+jenkins-cli list-jobs
+    </pre>
+  </section>
+
+  <script src="scripts/dashboard.js"></script>
+</body>
+</html>

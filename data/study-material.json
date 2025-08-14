@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Git Basics",
+    "link": "https://git-scm.com/doc"
+  },
+  {
+    "title": "Jenkins Pipeline Tutorial",
+    "link": "https://www.jenkins.io/doc/book/pipeline/"
+  },
+  {
+    "title": "DevOps Roadmap",
+    "link": "https://roadmap.sh/devops"
+  }
+]
